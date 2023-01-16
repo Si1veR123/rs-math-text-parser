@@ -11,5 +11,4 @@ strum_macros = "0.24"
 
 [lib]
 name = "math_parser"
-root = "src/lib.rs"
-
+path = "src/lib.rs"
