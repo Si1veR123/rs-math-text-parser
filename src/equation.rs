@@ -316,6 +316,7 @@ pub enum FunctionType {
     Asinh,
     Acosh,
     Atanh,
+    Ln
     // Root,
     // Log
 }
@@ -344,6 +345,7 @@ impl EquationEval for EquationOperation {
                     FunctionType::Asinh => value.asinh(),
                     FunctionType::Acosh => value.cosh(),
                     FunctionType::Atanh => value.tanh(),
+                    FunctionType::Ln => value.ln()
                 }
             },
         }

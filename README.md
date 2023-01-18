@@ -27,6 +27,7 @@ println!("{:?}", eq.evaluate(None));
 - Asinh
 - Acosh
 - Atanh
+- Ln
 
 ## Operations
 - Add (a+b)
